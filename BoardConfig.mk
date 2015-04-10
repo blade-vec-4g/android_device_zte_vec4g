@@ -25,7 +25,7 @@ TARGET_LIBINIT_DEFINES_FILE := device/zte/vec4g/init/init_vec4g.c
 
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
-TARGET_KERNEL_CONFIG := vec4g_defconfig
+TARGET_KERNEL_CONFIG := blade4g_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 10485760
